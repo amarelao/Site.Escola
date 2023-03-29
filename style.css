@@ -1,3 +1,45 @@
-body {
-    background-color: #383D58;
-    }
+.cabecalho{
+    background-color: #e40eae;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+ width: 20%;
+}
+
+.cabecalho-lista-item{
+ display: inline-block;
+ margin: 0 16px;
+ padding: 24px 0;
+ font-size: 24px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.escola-imagem{
+    width: 25%;
+}
+
+.escola{
+    background-image: linear-gradient(#e40eae,#ff009d);
+    color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-conteudo{
+    width: 35%;
+}
+
+.escola-titulo{
+    padding: 24px 0;
+}
